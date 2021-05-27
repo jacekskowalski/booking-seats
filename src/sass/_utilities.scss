@@ -1,0 +1,41 @@
+.form{
+&__input{
+    font-size: $default-font-size;
+padding:0.5rem;
+}
+&__label{
+    font-size: $default-font-size;
+    padding:0.5rem;
+}
+}
+.margin-m{
+margin-top:1rem;
+}
+.btn--border{
+    border: 1px solid $background-color2;
+}
+.active, .recommended{
+    background-color: $background-color1;
+  }
+  .defaultBackground{
+      background-color: $color-white;
+  }
+  .reserved{
+      background-color: rgb(71,71,71);
+      box-shadow: none;
+      transform: none;
+  }
+
+  .form__input-number{
+      margin-left: 3rem;
+  }
+ 
+  .text{
+      &--small{
+        font-size: 0.9rem;
+      }
+      &--error{
+          color: red;
+      }
+     
+  }
